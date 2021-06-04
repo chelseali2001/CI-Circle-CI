@@ -12,3 +12,6 @@ class TestCalculatorApp:
 
     def test2(self):
         assert 2.0 == calculator.div(4, 2)
+
+    def test3(self):
+        assert 9 == calculator.power(3, 2)
